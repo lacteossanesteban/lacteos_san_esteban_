@@ -8,14 +8,14 @@
   transform: translateX(-100%);
   filter: blur(5px);
   place-items: center;
-  transition: all 2s ;
+  transition: all 2s;
 }
 .show {
   opacity: 1;
   transform: translateX(0);
   filter: blur(0);
 }
-img {
+.logo {
   display: block;
   width: 30rem;
   margin: auto;
@@ -64,5 +64,13 @@ a {
   }
   a {
     color: white;
+  }
+}
+@media (max-width: 660px) {
+  .logo {
+    width: 15rem;
+  }
+  body {
+    padding: 0;
   }
 }
