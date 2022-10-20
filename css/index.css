@@ -31,8 +31,12 @@ section,
 header {
   margin: 0.5rem 0;
   background: rgba(255, 255, 255, 0.75);
-  min-height: 90vh;
   padding: 1rem;
+}
+
+section.hidden,
+header.hidden {
+  min-height: 90vh;
 }
 section p {
   text-align: center;
